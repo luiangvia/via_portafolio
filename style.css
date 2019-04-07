@@ -1,0 +1,482 @@
+h1 {
+    font-size: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    background: navy;
+    font-weight: 900;
+    color: white;
+    height: auto;
+    float: left;
+    padding: 20px 20px 20px 20px;
+
+}
+h2 {
+    
+    font-size: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: red;
+    font-weight: 900;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(17, 17, 49);
+    font-weight: 900;
+}
+h5 {
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    color:blue;
+    font-weight: 900;
+    letter-spacing: 20px;
+    text-shadow: none;
+}
+.navbar {
+    font-size: 1rem;
+    font-family: 'Viga', sans-serif;
+ 
+    padding: 30px 20px 20px 20px;
+    float: right;
+
+
+}
+
+#indexlink{
+    text-align: center;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+p2{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 20px;  
+}
+p3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8rem  
+}
+
+
+
+
+#indextitles{
+    padding: 100px 200px 0px 200px;
+    font-size: 8rem;
+    align-content: center;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: orangered;
+    text-shadow: 3px 3px black;
+}
+
+#indexb {
+    background-color:navy;
+    padding: 14px 16px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.headerbox {
+    overflow: auto;
+    background:#C38F8D;
+    padding: 0px 16px;
+    position: fixed;
+    top: 0;
+    width: 100%
+      
+    
+}
+
+.indexbackground {
+    background: white;
+    margin: 110px 100px 20px 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.indexbox {
+    overflow: auto;
+}
+
+.indeximage {
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.indexbody {
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+
+.portfoliobackground {
+    background-color: rgba(129, 129, 138, 0.5);
+    padding: 20px;
+    overflow: auto;
+    margin: 110px 150px 0px 150px;
+    border-radius: 40px;
+}
+#infolinks{
+    background-color: rgba(129, 129, 138, 0.5);
+    padding: 20px;
+    overflow: auto;
+    margin: 20px 475px 0px 475px;
+    border-radius: 40px;
+}
+
+.connectcolumnleft {
+    padding:30px 0px 0px 30px; ;
+    float: left;
+    width: 30%;
+    overflow: auto;
+  }
+  .connectcolumnmiddle {
+    float: left;
+    width: 30%;
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-left: 100px;
+  }
+  .connectcolumnright {
+    float: left;
+    width: 30%;
+    overflow: auto;
+    padding-top: 30px;
+  }
+.connectrow{
+    color: white;
+    background:black;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.connectrow:after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: auto;
+    
+  }
+
+.button {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#Image1 {
+    float: left;
+    width: 250px;
+    margin: 20px 40px 25px;
+}
+
+#Image2 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image3 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image4 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+#Image5 {
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+}
+
+.Image {
+    margin-bottom: 20px;
+    width: 274px;
+    height: 205.5px;
+    border-radius: 20px;
+}
+.Image:Hover{
+transform: scale(1.1);
+}
+
+.logoimage{
+    margin: 10px 0px 0px 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.resumeimage{
+    margin: 10px 0px 0px 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.resumeimage:Hover{
+    transform: scale(1.2);
+    }
+.footerimage{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+}
+.contactboxbackground {
+    margin: 110px 30px 0px 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hirebackground {
+    margin: 110px 30px 0px 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.formbar {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: gray;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid gray;
+    border-radius: .25rem;
+    margin-top: 10px;
+}
+#bottomlinks{
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Viga', sans-serif;
+}
+.form {
+    margin: 20px 0px;
+}
+
+.formalert {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+#textbar {
+    height: auto;
+}
+
+.submit {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+@media screen and (max-width: 980px) {
+
+    .indexbackground {
+        margin: 20px 300px 0px 20px;
+
+    }
+
+    .contactboxbackground {
+        margin: 20px 300px 20px 20px;
+    }
+
+    .portfoliobackground {
+        margin: 20px 300px 20px 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px 0px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px 0px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 20px 30px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .indexbackground {
+        margin: 20px;
+
+    }
+
+
+    .contactboxbackground {
+        margin: 30px;
+    }
+
+    .portfoliobackground {
+        margin: 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 274px;
+        height: 205.5px;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    h1 {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        float: none;
+
+    }
+
+    .navbar {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .indeximage {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .contactboxbackground {
+        margin: 20px 20px 20px 20px;
+    }
+
+    .portfoliobackground {
+        margin: 20px;
+    }
+
+    #Image1 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+
+    }
+
+    #Image2 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image3 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image4 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    #Image5 {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 55px 25px;
+    }
+
+    .Image {
+        margin-bottom: 20px;
+        position: relative;
+        width: 450px;
+        height: 400px;
+    }
+}

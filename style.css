@@ -1,14 +1,39 @@
 h1 {
     font-size: 2rem;
     font-family: 'Titillium Web', sans-serif;
-    background: navy;
     font-weight: 900;
-    color: white;
+    color:navy;
     height: auto;
     float: left;
     padding: 20px 20px 20px 20px;
+    
 
 }
+h1:Hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
+
+#indexb {
+    padding: 14px 16px;
+    border-radius: 50px;
+    color: navy;
+    
+}
+#indexb:Hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
 h2 {
     
     font-size: 2rem;
@@ -43,9 +68,11 @@ h5 {
 #indexlink{
     text-align: center;
 }
+
 p{
     font-family: 'Roboto Slab', serif;
 }
+
 p2{
     font-family: 'Roboto Slab', serif;
     padding-left: 20px;  
@@ -56,10 +83,8 @@ p3{
 }
 
 
-
-
 #indextitles{
-    padding: 100px 200px 0px 200px;
+    padding: 0px 0px 0px 0px;
     font-size: 8rem;
     align-content: center;
     text-align: center;
@@ -67,29 +92,28 @@ p3{
     color: orangered;
     text-shadow: 3px 3px black;
 }
-
-#indexb {
-    background-color:navy;
-    padding: 14px 16px;
-    border-radius: 50px;
-    color: white;
+#indextitles:Hover{
+    text-shadow: 0px 0px 0 rgb(208,138,28),1px 1px 0 rgb(165,123,26),2px 2px 0 rgb(242,185,100),3px 3px 0 rgb(227,167,187),4px 4px 0 rgb(182,129,63),5px 5px 0 rgb(161,117,50),6px 6px 0 rgb(144,103,39),7px 7px 0 rgb(130,91,31),8px 8px 0 
+    rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0
+    rgb(63,41,8),13px 13px 0
     
 }
 
+#alldiv{
+    padding:100px 0px 0px 0px;
+}
 .headerbox {
     overflow: auto;
-    background:#C38F8D;
+    background: none;
     padding: 0px 16px;
     position: fixed;
     top: 0;
-    width: 100%
-      
-    
+    width: 100% 
 }
 
 .indexbackground {
     background: white;
-    margin: 110px 100px 20px 20px;
+    margin: 0px 20px 0px 20px;
     padding: 20px;
     overflow: auto;
 }
